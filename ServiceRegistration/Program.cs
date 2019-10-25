@@ -16,7 +16,7 @@ namespace ServiceRegistration
             var serviceProvider = serviceCollection.BuildServiceProvider();
 
 
-            var service = serviceProvider.GetService<ITestService>();
+            var service = serviceProvider.GetService<StandaloneService>();
             service.DoSth();   
 
 
