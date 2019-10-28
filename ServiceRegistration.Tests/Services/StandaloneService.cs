@@ -3,7 +3,7 @@ using System;
 using System.Collections.Generic;
 using System.Text;
 
-namespace ServiceRegistration.Services
+namespace ServiceRegistration.Tests.Services
 {
     [TransientService]
     public class StandaloneService

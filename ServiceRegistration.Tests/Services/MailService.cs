@@ -1,9 +1,10 @@
-﻿using ServiceRegistrationLibrary.Attributes;
+﻿using ServiceRegistration.Tests.Services;
+using ServiceRegistrationLibrary.Attributes;
 using System;
 using System.Collections.Generic;
 using System.Text;
 
-namespace ServiceRegistration.Services
+namespace ServiceRegistration.Tests.Services
 {
     [TransientService]
     public class MailService : IMailService
